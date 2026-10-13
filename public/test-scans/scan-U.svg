@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" width="720" height="720">
+  <defs>
+    <radialGradient id="bg" cx="45%" cy="38%" r="72%">
+      <stop offset="0" stop-color="#f2f4f6"/>
+      <stop offset="1" stop-color="#aeb7c2"/>
+    </radialGradient>
+    <filter id="photo" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#1b2733" flood-opacity="0.28"/>
+    </filter>
+    <style>
+      .board{fill:#161b22}.s{stroke:#111820;stroke-width:8;rx:18;filter:url(#photo)}.U{fill:#f8f8f3}.R{fill:#e4493f}.F{fill:#2fbd72}.D{fill:#ffd84f}.L{fill:#f3943b}.B{fill:#3478e5}.label{font:700 24px system-ui,sans-serif;fill:#26323e}
+    </style>
+  </defs>
+  <rect width="720" height="720" fill="url(#bg)"/>
+  <text x="38" y="54" class="label">Test scan U</text>
+  <rect x="118" y="118" width="484" height="484" rx="30" class="board" filter="url(#photo)"/>
+  <rect x="136" y="136" width="144" height="144" class="s D"/>
+  <rect x="288" y="136" width="144" height="144" class="s L"/>
+  <rect x="440" y="136" width="144" height="144" class="s U"/>
+  <rect x="136" y="288" width="144" height="144" class="s B"/>
+  <rect x="288" y="288" width="144" height="144" class="s U"/>
+  <rect x="440" y="288" width="144" height="144" class="s D"/>
+  <rect x="136" y="440" width="144" height="144" class="s B"/>
+  <rect x="288" y="440" width="144" height="144" class="s R"/>
+  <rect x="440" y="440" width="144" height="144" class="s F"/>
+</svg>

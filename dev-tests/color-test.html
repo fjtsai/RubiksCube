@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color pipeline test</title>
+    <style>
+      body { font: 14px/1.5 monospace; background: #10141b; color: #dfe6ee; padding: 16px; }
+      pre { white-space: pre-wrap; }
+      .canvas-row canvas { width: 180px; height: 180px; margin: 4px; border: 1px solid #333; }
+    </style>
+  </head>
+  <body>
+    <h1 id="verdict">running…</h1>
+    <pre id="report"></pre>
+    <div class="canvas-row" id="gallery"></div>
+    <script type="module" src="/dev-tests/color-test.ts"></script>
+  </body>
+</html>

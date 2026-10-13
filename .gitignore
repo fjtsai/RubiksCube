@@ -1,0 +1,5 @@
+node_modules/
+# 建置輸出：由 rubiks-cube.service 直接對外提供，以 npm run build 產生
+dist/
+*.log
+.DS_Store

@@ -1,0 +1,27 @@
+{
+  "name": "魔方小玩家",
+  "short_name": "魔方",
+  "description": "給小朋友在手機瀏覽器遊玩的 3D 魔術方塊 PWA",
+  "start_url": "/",
+  "scope": "/",
+  "id": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7fbff",
+  "theme_color": "#33c7a6",
+  "categories": ["games", "education", "kids"],
+  "icons": [
+    {
+      "src": "/icons/cube.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/cube-maskable.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

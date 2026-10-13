@@ -1,4 +1,4 @@
-const CACHE_NAME = "kids-rubiks-cube-v10";
+const CACHE_NAME = "kids-rubiks-cube-v11";
 const CORE_ASSETS = [
   "/",
   "/index.html",

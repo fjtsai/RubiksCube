@@ -8,7 +8,7 @@ export type ThreeByThreeValidation =
 type InvalidValidation = { valid: false; reason: string; counts?: Partial<Record<FaceMove, number>> };
 
 const CENTER_FACELETS = [4, 13, 22, 31, 40, 49] as const;
-const CORNER_FACELETS = [
+export const CORNER_FACELETS = [
   [8, 9, 20],
   [6, 18, 38],
   [0, 36, 47],
@@ -18,7 +18,7 @@ const CORNER_FACELETS = [
   [33, 53, 42],
   [35, 17, 51],
 ] as const;
-const EDGE_FACELETS = [
+export const EDGE_FACELETS = [
   [5, 10],
   [7, 19],
   [3, 37],
@@ -33,7 +33,7 @@ const EDGE_FACELETS = [
   [48, 14],
 ] as const;
 
-const CORNER_COLORS = [
+export const CORNER_COLORS = [
   ["U", "R", "F"],
   ["U", "F", "L"],
   ["U", "L", "B"],
@@ -43,7 +43,7 @@ const CORNER_COLORS = [
   ["D", "B", "L"],
   ["D", "R", "B"],
 ] as const;
-const EDGE_COLORS = [
+export const EDGE_COLORS = [
   ["U", "R"],
   ["U", "F"],
   ["U", "L"],

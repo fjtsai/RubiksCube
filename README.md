@@ -2,6 +2,12 @@
 
 手機瀏覽器優先的 3D Rubik's Cube PWA，給小朋友用拖曳手感遊玩、看提示、逐步解、自動解，也能用相機掃描手上的實體魔方找解法。
 
+**線上試玩：<https://cube.heliacore.com>**（用手機開效果最好，可加到主畫面離線玩；5x5 直接開 <https://cube.heliacore.com/?cube=5>）
+
+| 拖曳就能轉中間層 | 解題模式：步驟卡＋方向箭頭 | 5x5 與轉動按鈕面板 | 拍照後確認、修正顏色 |
+| :---: | :---: | :---: | :---: |
+| <img src="docs/screenshots/drag-middle.webp" width="200" alt="3x3 正在拖曳中間直排"> | <img src="docs/screenshots/solve-mode.webp" width="200" alt="解題模式顯示第一步與方向箭頭"> | <img src="docs/screenshots/five-by-five.webp" width="200" alt="打亂的 5x5 與正中間層轉動按鈕"> | <img src="docs/screenshots/scan-review.webp" width="200" alt="掃描六面後的顏色確認畫面"> |
+
 ## 功能
 
 - Vite + TypeScript + Three.js 模組化架構，3x3 與 5x5
@@ -68,3 +74,4 @@ npm run preview
 - `src/solver.worker.ts`：cubejs 初始化與解法計算
 - `public/sw.js`：離線快取
 - `dev-tests/`：顏色管線驗證頁與端到端測試
+- `docs/screenshots/`：README 用的截圖

@@ -568,7 +568,9 @@ export class ScannerUi {
     this.elements.reviewPalette.classList.toggle("active", this.selectedCell !== null);
     this.elements.reviewFix.classList.toggle("hidden", result.valid || this.edits.size === 0);
     this.elements.reviewApply.toggleAttribute("disabled", !result.valid);
-    this.elements.reviewRestart.querySelector("span")!.textContent = this.usingTestPhotos ? "關閉" : "重新掃描";
+    this.elements.reviewRestart.innerHTML = this.usingTestPhotos
+      ? `${icon("close")}<span>關閉</span>`
+      : `${icon("retake")}<span>重新掃描</span>`;
   }
 
   private flash(): void {
